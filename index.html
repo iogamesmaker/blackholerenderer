@@ -86,8 +86,9 @@ body {
 <main class="layout">
 <br>
 <h1>Black Hole Renderer</h1>
-<p1>This C++ project is more of a port of a scratch project by Geotale, called "gravity raycaster". I liked it so much that I wanted to add my own little things to it, and improve the performance further, because C++ is a performant language. So I converted it to C++ and removed the coloring because HSV sucks, and re did it.</p1>
+<p1>This C++ project is more of a port of a scratch project called "gravity raycaster". I liked it so much that I wanted to add my own little things to it, and improve the performance further. Because C++ is a performant language I converted it to C++ and removed the coloring because HSV sucks, and re-did it in mostly the same way.</p1>
 <h2>Controls</h2>
+<p1>(the controls are messy and i randomly selected the keys, if you're gonna do the same i reccomend thinking more than a picosecond about mapping of the keys)</p1>
 <p1>WASDQE to move</p1>
 <p1>Arrow keys to rotate camera</p></p1>
 <p1>G to toggle light bending</p></p1>
@@ -100,10 +101,12 @@ body {
 <p1>F9/F10 to de/increase gravity's strength</p></p1>
 <p1>F11 to toggle fullscreen</p></p></p1>
 <p1>Compile with: g++ blackhole.cpp -o blackhole -lGL -lGLU -lglut -Ofast</p1>
+<br>
+<p1>Now this project executes only on the CPU, so it's very, very, very inefficient. I might go back and use a fragment shader to trace the ray, but then again I am too lazy for any of that shit. If you want to waste your time, do it and let me know or something :)</p1>
 <h2>Some images</h2>
-</p>
+<p>Every pixel is 12 pixels, black background.</p>
 <img src="https://user-images.githubusercontent.com/51845955/278864497-0512ac1b-e9f4-452b-bd6e-2345c2043e49.png" alt="Downscale on 12, and background disabled"> 
-</p>
+<p>Supersampling on 16 samples per pixel.</p>
 <img src="https://user-images.githubusercontent.com/51845955/278864514-0dfbbd7d-f572-4faf-a8a5-9889992801a1.png" width="640" height="360" alt="Supersampling on 16, and MSAA enabled"> 
 </main>
 </body>
