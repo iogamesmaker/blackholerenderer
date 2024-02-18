@@ -1,5 +1,5 @@
 body {
-    color: black;
+    color: white;
     background-size: cover;
     font-family: 'Overpass', sans-serif;
     margin: 0;
@@ -47,7 +47,7 @@ body {
 .layout{
     padding-left: 10%;
     padding-right: 10%;
-    background-color: rgba(0, 0, 0, 1.0);
+    background-color: rgb(0, 0, 0);
 }
 
 ::-webkit-scrollbar {
